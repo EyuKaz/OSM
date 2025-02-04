@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "ekaz/openstreetmap-block",
+	"version": "0.1.0",
+	"title": "OpenStreetMap Block",
+	"category": "widgets",
+	"icon": "location-alt",
+	"description": "Interactive OpenStreetMap block with address search.",
+	"attributes": {
+	  "latitude": {
+		"type": "number",
+		"default": 51.505
+	  },
+	  "longitude": {
+		"type": "number",
+		"default": -0.09
+	  },
+	  "address": {
+		"type": "string",
+		"default": ""
+	  }
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"supports": {
+	  "html": false,
+	  "align": ["wide", "full"]
+	}
+  }

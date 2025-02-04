@@ -1,0 +1,16 @@
+{
+	"name": "openstreetmap-block",
+	"version": "0.1.0",
+	"description": "A Gutenberg block for embedding OpenStreetMap with address search.",
+	"main": "index.js",
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"lint:js": "wp-scripts lint-js"
+	},
+	"author": "EKAZ",
+	"license": "GPL-2.0-or-later",
+	"devDependencies": {
+		"@wordpress/scripts": "^30.10.0"
+	}
+}

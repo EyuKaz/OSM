@@ -18,7 +18,7 @@ This block *tries* to embed an interactive OpenStreetMap in your WordPress edito
 
 1. **Download this repo** (or clone it if you’re fancy):  
    ```bash  
-   git clone https://github.com/your-username/openstreetmap-block.git  
+   git clone https://github.com/EyuKaz/OSM.git  
    ```  
 2. **Install dependencies** (and pray to the npm gods):  
    ```bash  
